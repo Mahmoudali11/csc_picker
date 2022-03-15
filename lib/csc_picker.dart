@@ -792,11 +792,24 @@ class CSCPickerState extends State<CSCPicker> {
                   SizedBox(
                     height: 10.0,
                   ),
-                  stateDropdown(),
-                  SizedBox(
-                    height: 10.0,
+                  Container(
+                    margin: EdgeInsets.only(top: 5, bottom: 5),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(5)),
+                    padding: const EdgeInsets.only(
+                        left: 5, right: 5, top: 5, bottom: 5),
+                    child: stateDropdown(),
                   ),
-                  cityDropdown()
+                  Container(
+                    margin: EdgeInsets.only(top: 5, bottom: 5),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(5)),
+                    padding: const EdgeInsets.only(
+                        left: 5, right: 5, top: 5, bottom: 5),
+                    child: cityDropdown(),
+                  ),
                 ],
               )
             : Column(
