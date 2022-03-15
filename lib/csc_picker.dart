@@ -786,7 +786,7 @@ class CSCPickerState extends State<CSCPicker> {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(5)),
                     padding: const EdgeInsets.only(
-                        left: 13, right: 13, top: 5, bottom: 5),
+                        left: 5, right: 5, top: 5, bottom: 5),
                     child: countryDropdown(),
                   ),
                   SizedBox(
