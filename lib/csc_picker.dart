@@ -780,15 +780,24 @@ class CSCPickerState extends State<CSCPicker> {
             ? Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  countryDropdown(),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: countryDropdown(),
+                  ),
                   SizedBox(
                     height: 10.0,
                   ),
-                  stateDropdown(),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: stateDropdown(),
+                  ),
                   SizedBox(
                     height: 10.0,
                   ),
-                  cityDropdown()
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: cityDropdown(),
+                  )
                 ],
               )
             : Column(
