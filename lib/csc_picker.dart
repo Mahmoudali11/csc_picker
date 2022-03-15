@@ -786,7 +786,7 @@ class CSCPickerState extends State<CSCPicker> {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(15)),
                     padding: const EdgeInsets.only(
-                        left: 5, right: 5, top: 5, bottom: 5),
+                         left: 13, right: 13, top: 7, bottom: 7),
                     child: countryDropdown(),
                   ),
                   SizedBox(
@@ -798,7 +798,7 @@ class CSCPickerState extends State<CSCPicker> {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(15)),
                     padding: const EdgeInsets.only(
-                        left: 5, right: 5, top: 5, bottom: 5),
+                        left: 13, right: 13, top: 7, bottom: 7),
                     child: stateDropdown(),
                   ),
                   Container(
@@ -807,7 +807,7 @@ class CSCPickerState extends State<CSCPicker> {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(15)),
                     padding: const EdgeInsets.only(
-                        left: 5, right: 5, top: 5, bottom: 5),
+                         left: 13, right: 13, top: 7, bottom: 7),
                     child: cityDropdown(),
                   ),
                 ],
